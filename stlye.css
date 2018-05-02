@@ -1,0 +1,32 @@
+.hinh-vuong {
+  width: 100px;
+  height: 100px;
+  background-color: #b3b3b3;
+  box-shadow: 1px 1px 1px 1px #bf0000; }
+  .hinh-vuong .mau-chu {
+    size: 14px;
+    text-align: center;
+    color: #bf0000; }
+
+.col-md1 {
+  color: red; }
+
+.col-md2 {
+  color: red; }
+
+.col-md3 {
+  color: red; }
+
+.col-md4 {
+  color: red; }
+
+.col-md5 {
+  color: red; }
+
+.col-md6 {
+  color: red; }
+
+.main {
+  width: 50%; }
+
+/*# sourceMappingURL=stlye.css.map */

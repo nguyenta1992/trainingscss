@@ -1,0 +1,49 @@
+//lòng cấu trúc  khai bao biến
+$width: 100px;
+
+$height: 100px;
+
+$gray: #b3b3b3;
+
+$mauchu: #bf0000;
+
+
+
+.hinh-vuong {
+  width: $width;
+  height: $height;
+  background-color: #b3b3b3;
+  box-shadow: 1px 1px 1px 1px #bf0000;
+  .mau-chu {
+    size: 14px;
+    text-align: center;
+    color: $mauchu;
+
+  }
+}
+
+//each scss
+
+$list: md1 md2 md3 md4 md5 md6;
+
+@each $col in $list {
+  .col-#{$col} {
+    color:red;
+  }
+}
+
+//if else
+
+@if($width < 100){
+  .main{
+    width: 100%;
+  }
+}
+@else{
+  .main{
+    width: 50%;
+  }
+}
+
+
+
